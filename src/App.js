@@ -27,8 +27,7 @@ function App() {
   useEffect(() => {
     setSearchData(data.filter((x) => x.first.toLowerCase().includes(searchTerm.toLowerCase())
     || x.first.toLowerCase().includes(searchTerm.toLowerCase())));
-    console.log(searchData);
-  }, [searchTerm]);
+  }, [searchTerm, data]);
 
   const handleInputChange = (event) => {
     setSearchTerm(event.target.value);
