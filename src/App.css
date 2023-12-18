@@ -1,17 +1,20 @@
+
 .app-container {
   display: flex;
   justify-content: center;
   font-weight: bold;
+  font-size: medium;
   margin: 1rem;
-  border: 1px solid lightgray;
+  border: 4px solid #283618;
   padding: 1rem;
   border-radius: 0.5rem;
+  background: #76c893;
 }
 
 .centered-container {
   width: 40rem;
   margin: 0 auto;
-  /* text-align: center; Optional: To center the text within the container */
+  /* background: #606c38; */
 }
 
 .no-result {
@@ -19,4 +22,9 @@
   justify-content: center;
   font-weight: bold;
   margin-top: 1rem;
+}
+
+.searchDiv {
+  margin-top: 1rem;
+  color: white;
 }

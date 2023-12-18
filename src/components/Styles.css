@@ -25,14 +25,31 @@
   .search-bar {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #007bff; /* Add a border */
+    border: 1px solid #283618; /* Add a border */
     border-radius: 5px;
     outline: none; /* Remove the outline when focused */
     /* width: 20px; */
+    color: black;
   }
 
   .card-container {
     margin: 1rem;
+  }
+
+  .MuiAccordion-root {
+    margin: 10px 0; /* Adjust margin as needed */
+    border: 2px solid #283618; /* Change border properties */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  /* Accordion Summary */
+  .MuiAccordionSummary-root {
+    background-color: black; /* Change background color */
+  }
+  
+  .MuiAccordionSummary-content {
+    display: flex;
+    align-items: center;
   }
 
   .content-container {

@@ -16,7 +16,7 @@ function SearchBar(props) {
                 placeholder="Search User"
                 value={searchTerm}
                 onChange={handleInputChange}
-                // className="search-bar"
+                className="search-bar"
                 InputProps={{
                     startAdornment: (
                         <InputAdornment position="start">

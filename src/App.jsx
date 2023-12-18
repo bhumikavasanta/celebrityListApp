@@ -37,7 +37,7 @@ function App() {
       <div className="app-container">
         List App
       </div>
-      <div style={{ margin: '1rem' }}>
+      <div className='searchDiv'>
         <SearchBar
           searchTerm={searchTerm}
           handleInputChange={handleInputChange}
